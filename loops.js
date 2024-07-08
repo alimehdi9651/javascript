@@ -96,6 +96,11 @@
 // let actnum = 25;
 // let usernum = prompt("enter a number");
 // while(actnum != usernum){
-//       usernum = prompt("u have entered wrong number ! please re-enter the number")
+//       if(usernum > actnum){
+//            usernum = prompt("u have entered wrong number ! please enter a lesser number")
+//       }
+//       else{
+//            usernum = prompt("u have entered wrong number ! please greater number")
+//       } 
 // }
 // console.log("congragulation u entered a right numbe");
