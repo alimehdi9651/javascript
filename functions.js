@@ -79,6 +79,7 @@
 
 //HIGHER ORDER FUNCTION/METHODS : HOF/HOM are the type of methods that takes any other 
 //function as a parameter or returns function as a value 
+// only works in array
 //HERE, .forEach() IS A TYPE OF HOF/HOM. 
 
 // An important method of arrays is 
