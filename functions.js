@@ -114,7 +114,7 @@
 //it creates a new array with results of some operation. The value its callback returns are used 
 // to form a new array. it modify each elements of array
 
-arr = [1, 2, 3, 4, 5 ]
+// arr = [1, 2, 3, 4, 5 ]
 // newarray = arr.map((val) =>{
 //     return val*val;
 // })
