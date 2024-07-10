@@ -82,7 +82,7 @@
 // only works in array
 //HERE, .forEach() IS A TYPE OF HOF/HOM. 
 
-// An important method of arrays is 
+// An important method of arrays is '.forEach()'
 //SYNTAX:
 //forEach(call back function(value, index, array itself));
 // only array is used in this function.
@@ -110,7 +110,7 @@
 // })
 
 // ------------------------------
-//Another type of HOF/HOM is .map(callback function(val, idx, array))
+//Another type of HOF/HOM is ".map(callback function(val, idx, array))""
 //it creates a new array with results of some operation. The value its callback returns are used 
 // to form a new array. it modify each elements of array
 
@@ -123,7 +123,7 @@
 
 // --------------------------------
 
-//Another HOF/HOM is .filter(callback fun(val))
+//Another HOF/HOM is '.filter(callback fun(val))'
 // it creates a new array and include only those elements which pass
 // filter(condition or any operation) and store them into a new array.
 // it modify whole array
@@ -134,7 +134,7 @@
 // console.log(newarray);
 
 //------------------------------------
-//NEXT HOF/HOM is .reduce(previous , current);
+//NEXT HOF/HOM is '.reduce(previous , current);'
 //it take two parameters prev is 1st idx and curr is next idx after prev.
 //when we have to peform a task, in which we have an array as a input and our operation give us
 //a single value then we use reduce fuction such as "finding the sum of array, finding the largest
