@@ -50,12 +50,16 @@
 // slice(): it works as substring() method of string.
 // new method
 // -->SPLICE(): this method can add,delete and replace element from a list.
-// SPLICE(startIndex, deletecount, newelement)
+// SPLICE(startIndex, delete count, newelement)
 // let arr = [1, 2, 3, 4, 5];
-// arr.splice(2 ,1, 6) // replace
-// console.log(arr);
-// arr.splice(2, 0, 6); // add : a element on a particular index
-// console.log(arr);
+// // arr.splice(2 ,1, 6) // replace
+// // console.log(arr);
+// // arr.splice(2, 0, 6); // add : a element on a particular index
+// // console.log(arr);
 // arr.splice(2,1);
 // console.log(arr); // delete any element
+
+//WINDOW object: it represent a open window in a brower. it is browser's object (not javascript's object)
+//its automatically created in the brower.
+//its a global object with lots of properties and methods.
 

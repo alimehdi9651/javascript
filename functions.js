@@ -148,3 +148,30 @@
 //     return prev > curr ? prev : curr;
 // })
 // console.log("maximum in array is",newarray);
+
+
+//-----------------------------------------------
+// PRACTICE QUESTION
+//1.)
+// print marks of student of scored more than 100:
+// let arr = [64, 87, 90, 100, 65, 99]
+// let newarray = arr.filter((marks) =>{
+//     return marks >= 90;
+// })
+// console.log(`Marks greater 90 = ${newarray}`);
+
+// // 2.)  
+// let n = prompt("give length of array");
+// let arr = [];
+// for(let i = 0; i < n; i++){
+//     let a = Number((prompt(`enter ${i} value`)))
+//     arr[i] = a;
+// }
+// // console.log(arr);
+
+// let sum = arr.reduce((prev, curr) => {
+//     return prev + curr;
+// })
+// console.log(`sum of array = ${sum}`)
+
+
