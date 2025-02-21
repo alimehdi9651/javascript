@@ -45,4 +45,11 @@
 // console.dir(first_tags);
 // console.log(first_tags.tagName)
 
-//2.)
+//2.).innerText:
+//return the text content of element and all its children.
+// let div = document.querySelector("div");
+// console.dir(div.innerText);
+//3.).innerHTML:
+//return the HTML  content of element and all its children.
+// let div = document.querySelector("div");
+// console.dir(div.innerHTML);

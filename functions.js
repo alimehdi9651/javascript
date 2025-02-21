@@ -98,7 +98,7 @@
 //     str1 = val.toUpperCase()
 //     console.log(str1);
 // });
-// -------------------------------
+// // -------------------------------
 // arr.forEach((val, idx, array)=>{
 //     console.log(`${val} at index ${idx}th postion in this array [${array}]`);
 // })
@@ -167,7 +167,8 @@
 //     let a = Number((prompt(`enter ${i} value`)))
 //     arr[i] = a;
 // }
-// // console.log(arr);
+// console.log(arr);5
+
 
 // let sum = arr.reduce((prev, curr) => {
 //     return prev + curr;

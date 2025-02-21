@@ -1,6 +1,6 @@
 // let str = "ali"
 // let s = 'ali'
-// console.log(`${str} <-- this is concatination --> ${s}`);
+// console.log(`${str} ${s}`);
 
 
 // // TAMPLET  literals
