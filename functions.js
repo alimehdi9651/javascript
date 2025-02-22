@@ -175,4 +175,29 @@
 // })
 // console.log(`sum of array = ${sum}`)
 
+// let arr = [1,2,3,4,5];
+// const newarr = arr.reduce(function(acc, curr){
+//     acc = acc * curr;
+//     return acc;
+// }, 1);
+// console.log(newarr);
 
+
+// here accumletors is the value which store the multiple of the elements in the arrayand  continously being changed and
+//  current is the element of the array which is cmimg one by one and multiplied by the acc.
+const arr = [
+    {fn:"ali", ln:"mehdi", age: 20},
+    {fn:"rahu;", ln:"kumi", age: 23},
+    {fn:"binode", ln:"sigg", age: 34},
+    {fn:"faisal", ln:"rizvi", age: 20},
+];
+
+// const ans = arr.filter((x) => x.age < 30).map((x) => x.fn);
+// console.log(ans)
+const ans = arr.reduce(function(acc, curr){
+    if(curr.age <30){
+        acc.push(curr.fn);
+    }
+    return acc;
+}, []);
+console.log(ans)
