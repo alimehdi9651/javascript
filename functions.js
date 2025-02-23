@@ -185,19 +185,19 @@
 
 // here accumletors is the value which store the multiple of the elements in the arrayand  continously being changed and
 //  current is the element of the array which is cmimg one by one and multiplied by the acc.
-const arr = [
-    {fn:"ali", ln:"mehdi", age: 20},
-    {fn:"rahu;", ln:"kumi", age: 23},
-    {fn:"binode", ln:"sigg", age: 34},
-    {fn:"faisal", ln:"rizvi", age: 20},
-];
+// const arr = [
+//     {fn:"ali", ln:"mehdi", age: 20},
+//     {fn:"rahu;", ln:"kumi", age: 23},
+//     {fn:"binode", ln:"sigg", age: 34},
+//     {fn:"faisal", ln:"rizvi", age: 20},
+// ];
 
-// const ans = arr.filter((x) => x.age < 30).map((x) => x.fn);
+// // const ans = arr.filter((x) => x.age < 30).map((x) => x.fn);
+// // console.log(ans)
+// const ans = arr.reduce(function(acc, curr){
+//     if(curr.age <30){
+//         acc.push(curr.fn);
+//     }
+//     return acc;
+// }, []);
 // console.log(ans)
-const ans = arr.reduce(function(acc, curr){
-    if(curr.age <30){
-        acc.push(curr.fn);
-    }
-    return acc;
-}, []);
-console.log(ans)
