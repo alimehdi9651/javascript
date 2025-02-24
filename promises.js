@@ -52,7 +52,7 @@ function updateWallet(summary){
         resolve("Wllate updated successfully");
     })
 }
-function showOrderSummary(paymentInfo, orderId){
+function showOrderSummary(paymentInfo){
     return new Promise(function (resolve, reject){
         resolve("this is the summary of your above order");
     });
