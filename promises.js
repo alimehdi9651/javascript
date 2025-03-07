@@ -99,16 +99,16 @@
 // it takes array as input and return array as out with result.
 
 
-const p1 = new Promise((resolve, reject) =>{
-    setTimeout(() => resolve("p1 is success"),3000);
-});
-const p2 = new Promise((resolve, reject) =>{
-    setTimeout(() => reject("p2 is reject"),1000);
-});
-const p3 = new Promise((resolve, reject) =>{
-    setTimeout(() => reject("p3 is rejected"),2000);
-});
-const promise = [p1, p2, p3]; // array of promisses.
+// const p1 = new Promise((resolve, reject) =>{
+//     setTimeout(() => reject("p1 is success"),3000);
+// });
+// const p2 = new Promise((resolve, reject) =>{
+//     setTimeout(() => reject("p2 is reject"),1000);
+// });
+// const p3 = new Promise((resolve, reject) =>{
+//     setTimeout(() => reject("p3 is rejected"),2000);
+// });
+// const promise = [p1, p2, p3]; // array of promisses.
 
 // 1.) Promise.all(): 
 // Wait for each api call and then it return result.
@@ -150,7 +150,7 @@ const promise = [p1, p2, p3]; // array of promisses.
 // And if all the promises get failed then it will throw aggregate error.
 
 //code:
-Promise.any(promise)
-.then(res => console.log(res))
-.catch(err => console.error(err))
+// Promise.any(promise)
+// .then(res => console.log(res))
+// .catch(err => console.log(err.errors))
 

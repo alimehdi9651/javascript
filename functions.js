@@ -177,9 +177,10 @@
 
 // let arr = [1,2,3,4,5];
 // const newarr = arr.reduce(function(acc, curr){
+//     console.log("acc= " + acc+"curr = "+curr)
 //     acc = acc * curr;
 //     return acc;
-// }, 1);
+// },1);
 // console.log(newarr);
 
 

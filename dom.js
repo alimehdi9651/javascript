@@ -53,3 +53,21 @@
 //return the HTML  content of element and all its children.
 // let div = document.querySelector("div");
 // console.dir(div.innerHTML);
+
+// let boxes = document.querySelector(".container").children;
+// function getRandomColour(){
+//     let val1 = Math.ceil(Math.random() * (255 - 100 + 1)) - 100;
+//     let val2 = Math.random() * 255;
+//     let val3 = Math.random() * 255;
+//     return `rgb(${val1}, ${val2}, ${val3})`;
+// }
+// // Array.from(boxes).forEach(e => {
+// //     e.style.backgroundColour = "red"
+// // })
+
+// // boxes[3].style.backgroundColour = "red";
+// // document.getElementById("red").style.background = "red"
+// let boxes = document.querySelector(".container").children;
+// Array.from(boxes).forEach(e => {
+//     e.style.background = getRandomColour()
+// })
