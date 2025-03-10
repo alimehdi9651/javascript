@@ -71,3 +71,9 @@
 // Array.from(boxes).forEach(e => {
 //     e.style.background = getRandomColour()
 // })
+
+
+let button = document.getElementById("btn")
+button.addEventListener('click', () => {
+    alert("i was clicked")
+})
