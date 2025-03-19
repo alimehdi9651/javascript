@@ -95,7 +95,7 @@
 
 
 //---------------------------------------------------------------------
-// // Promise API's:When we have to take parrallel or multiple API calls at a time.
+// Promise API's:When we have to take parrallel or multiple API calls at a time.
 // it takes array as input and return array as out with result.
 
 

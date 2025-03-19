@@ -1,5 +1,5 @@
-// Async Funcrtion: it is the fucntion that inly returns a promise and if we return a normal data type then 
-// it will wrap that data into  a promise and return that prmise
+// Async Funcrtion: it is the fucntion that only returns a promise and if we return a normal data type then 
+// it will wrap that data into  a promise and return that promise
 // async function getData() {
 //     return "ali";
 // }
@@ -47,18 +47,19 @@ const p = new Promise((resolve, reject)=>{
 // using asyncwait JS engine's call stack suspend the execution of the function and keep it suspended util promise get resolved
 // and during the time of suspentione everything will work normally if any other function arrive in call stack
 //it will execute immediatly. 
-// async function handle(){
-//     console.log("before resolution")
-//     const data = await p;
-//     console.log(data);
-//     console.log("ali")
+async function handle(){
+    console.log("before resolution")
+    const data = await p;// js engine will suspend the execution of handle() function at this line and execute other function
+    // which are still not executed and willing to come in the call stack. it is all because of await keyword.
+    console.log(data);
+    console.log("ali")
     
-// }
-// function nam1e(){
-//     console.log("mehdi")
-// }
-// handle();
-// nam1e();
+}
+function nam1e(){
+    console.log("mehdi")
+}
+handle();
+nam1e();
 
 
 
